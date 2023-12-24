@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Creative-scroll-website</title>
+
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/app.js" defer></script>
+    <script src="js/music.js" defer></script>
+
+</head>
+<body>
+    <a href="secondpage.html">
+        <button class="bButton" id="backButton">Артқа</button>
+       
+	<div class="wrapper">
+		<div class="content">
+        <header class="hero-section">
+				<img data-speed=".6" class="hero" src="img/home.png" alt="Alt" >
+				<div class="container">
+					<div data-speed=".75" class="main-header">
+						<h1 class="main-title" >Top singer</h1>
+					</div>
+				</div>
+			</header>
+            <style>
+                :root{
+	--index: calc(1vw + 1vh);
+	--color-header: #f4efec;
+	--color-text: #cdc6c3;
+	--gallery-gap: calc(var(--index) * 7.5)
+}
+            </style>
+		
+			<div class="portfolio">
+				<div class="container">
+					<main class="gallery">
+	
+						<div data-speed=".9" class="gallery__left">
+		
+                            <img class="gallery__item" src="img/work/1.jpg" alt="Alt">
+
+                            <video class="gallery__item" controls>
+                                <source src="video/Download.mp4" type="video/mp4">
+                            </video>
+                                    
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Q-pop qroup Alpha</h2>
+								<p class="text-block__p">ALPHA (АЛЬФА) is Kazakhstani 5-member boy group under TEN Label consisting of A.Boo, Dark, I, N.B and Qozzy</p>
+							</div>
+		                    
+                            
+                            <video class="gallery__item" controls>
+                                <source src="video/the weekend.mp4" type="video/mp4">
+                            </video>
+						</div>
+
+						<div data-speed="1.1" class="gallery__right">
+		
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">The Beatles</h2>
+								<p class="text-block__p">Ливерпул қаласында,Англия,1960 ж құрылған 
+                                     John Lennon, Paul McCartney, George Harrison и Ringo Starr.</p>
+                                     <audio controls>
+                                        <source src="audio/The Beatles - Let It Be.mp3" type="audio/mpeg">
+                                    </audio>
+                            </div>
+		
+							<img class="gallery__item" src="img/work/4.jpg" alt="Alt">
+                            <h2 class="text-block__h">Димаш Құдайберген</h2>
+								
+						
+                            <video class="gallery__item" controls>
+                                <source src="video/alpha.mp4" type="video/mp4">
+                            </video>
+                        	<div class="text-block gallery__item">
+								<h2 class="text-block__h">The Weeknd</h2>
+								<p class="text-block__p">Abel Makkonen Tesfaye  known professionally as the Weeknd, is a Canadian singer, songwriter, and record producer.</p>
+							</div>
+							
+		
+						</div>
+
+					</main>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>

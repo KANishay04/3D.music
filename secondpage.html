@@ -1,0 +1,176 @@
+<!-- secondpage.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet"type="text/css"href ="css/bootstrap.min.css">
+    <link rel="stylesheet"type="text/css"href ="css/bootstrap-icons.min.css">   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" > 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src ="js/music.js" defer></script>
+    <title>Вторая страница</title>
+  </head>
+  <body>
+    <a href="index.html">
+    <button class ="gbButton"id="goBackButton">Артқа</button>
+    </a>
+       <div class="songs">
+            <div class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Таңдаулы</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Тренд</button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Жаңа шығарылым</button>
+            <button class="nav-link" id="nav-portfolio-tab" data-bs-toggle="tab" data-bs-target="#nav-portfolio" type="button" role="tab" aria-controls="nav-portfolio" aria-selected="true">The artist</button>
+
+            </div>
+    <!-- бір жолдағы музыкалар басталуы -->
+<div class="song-small m-1 col-md-6 row bg-secondary">
+  <div class="col-1 h3">01</div>
+  <div class="col d-flex">
+    <img class="rounded m-1" src="img/jungkook.jpg" style="width: 50px; height: 50px; object-fit: cover;">
+    <div class="ms-1">
+      <div>BTS Jungkook</div>
+      <small>정국--2U -Cover</small>
+    </div>
+  </div>
+  <div class="col-3">
+    <i class="bi bi-play playButton"></i>
+    <i class="bi bi-pause pauseButon"></i>
+    <audio class="audio">
+      <source src="audio/BTS Jungkook -정국--2U -Cover--textmp3.ru.mp3" type="audio/mp3">
+    </audio>
+  </div>
+</div>
+
+<div class="song-small m-1 col-md-6 row bg-secondary">
+  <div class="col-1 h3">02</div>
+  <div class="col d-flex">
+    <img class="rounded m-1" src="img/edsheeran.jpg" style="width: 50px; height: 50px; object-fit: cover;">
+    <div class="ms-1">
+      <div>Edsheeran</div>
+      <small>PERFECT</small>
+    </div>
+  </div>
+  <div class="col-3">
+    <i class="bi bi-play playButton"></i>
+    <i class="bi bi-pause pauseButon"></i>
+    <audio class="audio">
+      <source src="audio/ed_sheeran_-_perfect_(muztune.me).mp3" type="audio/mp3">
+    </audio>
+  </div>
+</div>
+<!-- бір жолдағы музыкалар аяқталуы -->
+
+     
+                
+                <!-- playlist musics -->
+    
+            <div class="music-playlist">
+                <h2>Музыкалық плейлист</h2>   
+             <div class="list">
+                    <div class="item">
+                        <img src="img/jungkook.jpg"/>
+                        <div class="play" id="addToPlaylist">
+                          <span class="fa fa-play" id="loginButton1"></span> 
+                        <h4>Today's Top Hits</h4>
+                        <p>Jungkook cover</p>
+                    </div>
+                    </div>
+                    
+
+                    <div class="item">
+                      <img src="img/2010s.jpg"/>
+                      <div class="play" id="addToPlaylist">
+                          <span class="fa fa-play" id="loginButton2"></span>
+                      </div>
+                      <h4>All out 2010s</h4>
+                      <p>The biggest spmgs pf tje 2010s.Cover...</p>
+                  </div>
+  
+
+    
+                  <div class="item">
+                    <img src="img/pop.jpg"/>
+                    <div class="play" id="addToPlaylist">
+                        <span class="fa fa-play" id="loginButton3"></span>
+                     </div>
+                    <h4>Pop music</h4>
+                    <p>American music</p>
+                </div>
+                
+    
+                <div class="item">
+                  <img src="img/kazakh.jpg"/>
+                  <div class="play" id="addToPlaylist">
+                      <span class="fa fa-play" id="loginButton4"></span>
+                  </div>
+                  <h4>Kazakh lofi music</h4>
+                  <p>asem auen</p>
+              </div>
+    
+              <div class="item">
+                <img src="img/lo-fi.jpg"/>
+                <div class="play"id="addToPlaylist">
+                    <span class="fa fa-play" id="loginButton5"></span>
+                </div>
+                <h4> lofi music</h4>
+                <p>focus</p>
+            </div>
+
+              <!--playlist end -->
+
+
+              
+                </div>
+            </div>
+           </div>
+           <footer class="p-5 pt-4  row bg-dark text-white">
+        
+            <div class="col-md-3 mb-4 col-sm-6">
+              <h5>Cілтемелер:</h5>
+              <ul class="nav flex-column">
+                <li><a href="#">Hегізгі бет</a></li>
+                <li><a href="#">Соңғы бет</a></li>
+                <li><a href="#">Тіркелу</a></li>
+                <li><a href="#">Кіру</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-4 col-sm-6">
+              <h5>Сілтемелер:</h5>
+              <ul class="nav flex-column">
+                <li><a href="#">Таңдаулы</a></li>
+                <li><a href="#">Жаңа шығарылымдар</a></li>
+                <li><a href="#">Тіркелу</a></li>
+                <li><a href="#">Кіру</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 mb-4">
+              <h5>Жаңа ақпараттық мазмұндар алу үшін</h5>
+              <div>біздің сайтқа тіркеліңіз</div>
+        
+              <div class="input-group mb-3 mt-2">
+                <input type="text" class="form-control" placeholder="Email" >
+                <span class="bg-primary text-white input-group-text" id="basic-addon2">Жазылу</span>
+              </div>
+        
+              <div class="text-white h5 ">
+                Бізге жазылыңыздар: 
+                <a href="">
+                  <i class="bi bi-facebook"></i>
+                </a>
+                <a href="">
+                  <i class="bi bi-twitter"></i>
+                </a>
+                <a href="">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </div>
+        
+            </div>
+          </footer>
+  </body>
+ 
+</html>
